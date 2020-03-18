@@ -29,10 +29,10 @@ class MainActivity : AppCompatActivity() {
         }
         else {
             btnLogin.setOnClickListener{
-                var username=editTextUsername.text.toString()
-                var password=editTextPassword.text.toString()
+                var data1=editTextUsername.text.toString()
+                var data2=editTextPassword.text.toString()
 
-                postkerserver(username,password)
+                postkerserver(data1,data2)
             }
         }
     }
